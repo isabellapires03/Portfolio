@@ -1,6 +1,34 @@
 body{
     background-color: #faf8f2;
-    background-image: image("Portfolio.png");
+    background-image: image("Portfólio.png");
     background-repeat: repeat-y;
+}
 
+@font-face {
+  font-family: "Bogart";
+  src:
+    local("Bogart"),
+    url("bogar") format("opentype") tech(color-COLRv1),
+    url("trickster-outline.otf") format("opentype"),
+    url("trickster-outline.woff") format("woff");
+}
+
+nav{
+    background-color: #faf8f2;
+    width: fit-content;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Bogart','Segoe UI';
+    font-size: 50px;
+    color: black;
+    border: 20px;
+    border-color: #faf8f2;
+}
+
+.container{
+    
 }

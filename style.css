@@ -1,34 +1,97 @@
 body{
     background-color: #faf8f2;
-    background-image: image("Portfólio.png");
-    background-repeat: repeat-y;
-}
-
-@font-face {
-  font-family: "Bogart";
-  src:
-    local("Bogart"),
-    url("bogar") format("opentype") tech(color-COLRv1),
-    url("trickster-outline.otf") format("opentype"),
-    url("trickster-outline.woff") format("woff");
+    background-image: url("Portfólio.png");
+    background-repeat: round;
+    padding:50px;
 }
 
 nav{
-    background-color: #faf8f2;
-    width: fit-content;
-    height: auto;
-    align-items: center;
-    justify-content: center;
+  position:sticky;
+  display: flex;
+  align-items: flex-start;
+  justify-content:center;
 }
+
+ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 0 40px;
+  text-decoration: none;
+  font-family: 'Bogart','Segoe UI';
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.12px;
+}
+
+li a:hover {
+  text-shadow: 0 0 25px pink;
+  transform:rotate(-5deg);
+}
+
+li{
+  color: #000;
+  font-family: 'Bogart','Segoe UI';
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.12px;
+}
+
 
 h1{
     font-family: 'Bogart','Segoe UI';
-    font-size: 50px;
+    font-size: 25px;
     color: black;
     border: 20px;
-    border-color: #faf8f2;
+}
+
+h2{
+  font-family: 'Bogart','Segoe UI';
+  font-size: 25px;
+  color: black;
+  font-weight: 400;
+  font-style:italic;
 }
 
 .container{
-    
+  width:900px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin:20px;
+  padding:15px;
+  background-color:lightblue;
+  border: 1px black dashed;
+  border-radius:5px;
+}
+
+.org{
+  display:flex;
+  justify-content:space-evenly;
+  align-items:flex-start;
+}
+
+button{
+  font-family:'Bogart','Segoe UI';
+  padding:12px;
+  border-radius:10px;
+}
+
+button:hover{
+  background-color:pink;
+  text-shadow: 0 0 25px pink;
+  transform:translate(-3px, -2px);
 }

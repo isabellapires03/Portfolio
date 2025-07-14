@@ -15,8 +15,6 @@ main{
  align-content: center;
 }
 
-main {}
-
 nav{
   position:sticky;
   display: flex;
@@ -100,7 +98,7 @@ h2{
   align-content: center;
 }
 
-.org {}
+
 
 button{
   font-family:'Bogart','Segoe UI';

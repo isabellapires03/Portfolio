@@ -1,9 +1,21 @@
 body{
-    background-color: #faf8f2;
-    background-image: url("Portfólio.png");
-    background-repeat: round;
-    padding:50px;
+  background-color: #faf8f2;
+  background-image: url("Portfólio.png");
+  background-repeat: round;
+   padding:50px;
+  justify-content:center;
+  align-items:center;
 }
+
+main{
+ justify-content: space-evenly;
+ display: flow;
+ flex-direction: column;
+ align-items: center;
+ align-content: center;
+}
+
+main {}
 
 nav{
   position:sticky;
@@ -17,7 +29,7 @@ ul{
   display: flex;
   align-items: center;
   gap: 10px;
-  position: relative;
+  flex-direction: row;
 }
 
 li a {
@@ -66,9 +78,7 @@ h2{
 }
 
 .container{
-  width:900px;
-  display:flex;
-  flex-direction:column;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   margin:20px;
@@ -76,13 +86,21 @@ h2{
   background-color:lightblue;
   border: 1px black dashed;
   border-radius:5px;
+  gap: 10px;
+  /* flex-direction: unset; */
 }
 
 .org{
-  display:flex;
-  justify-content:space-evenly;
-  align-items:flex-start;
+  /* width: min-content; */
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: flex-end;
+  justify-items: center;
+  align-content: center;
 }
+
+.org {}
 
 button{
   font-family:'Bogart','Segoe UI';
@@ -94,4 +112,10 @@ button:hover{
   background-color:pink;
   text-shadow: 0 0 25px pink;
   transform:translate(-3px, -2px);
+}
+
+img{
+  padding:0;
+  height:max;
+  width:270px;
 }

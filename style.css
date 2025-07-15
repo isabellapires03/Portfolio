@@ -83,7 +83,6 @@ h2{
   justify-content: center;
   align-items: center;
   margin:20px;
-  padding:15px;
   /* background-color:lightblue; */
   /* border: 1px black dashed; */
   border-radius:5px;
@@ -155,4 +154,17 @@ p{
   font-family:'Bogart','Segoe UI';
   display:flex;
   font-weight:300;
+  flex-wrap:wrap;
+}
+
+h3{
+  justify-content:center;
+  align-items:center;
+  margin-bottom:-50;
+  margin-left:90;
+  font-style:italic;
+  font-size:60px;
+  font-weight:500;
+  letter-spacing:-4px;
+  font-family:'Bogart','Segoe UI';
 }

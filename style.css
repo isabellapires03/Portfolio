@@ -78,7 +78,7 @@ h2{
 }
 
 .container{
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin:20px;
@@ -93,9 +93,9 @@ h2{
 .org{
   /* width: min-content; */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content:center;
-  align-items: flex-end;
+  align-items: flex;
   justify-items: center;
   align-content: center;
 }
@@ -118,4 +118,9 @@ img{
   padding:0;
   height:max;
   width:270px;
+}
+
+.polaroid{
+  border:aliceblue;
+  border-bottom:10px #faf9f4;
 }

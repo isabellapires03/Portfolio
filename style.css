@@ -168,3 +168,15 @@ h3{
   letter-spacing:-4px;
   font-family:'Bogart','Segoe UI';
 }
+
+.espaçamento{
+  justify-content:space-around;
+  width: 100%;
+}
+
+footer{
+  background: #57C785;
+  background: linear-gradient(0deg,rgba(87, 199, 133, 0) 0%, rgba(192, 151, 222, 1) 100%);
+  justify-content:space-around;
+  width: 100%;
+}

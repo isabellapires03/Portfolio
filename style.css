@@ -22,6 +22,7 @@ nav{
   display: flex;
   align-items: flex-start;
   justify-content:center;
+  gap:30px;
 }
 
 ul{
@@ -66,7 +67,6 @@ h1{
     font-family: 'Bogart','Segoe UI';
     font-size: 25px;
     color: black;
-    border: 20px;
 }
 
 h2{
@@ -75,6 +75,7 @@ h2{
   color: black;
   font-weight: 400;
   font-style:italic;
+  text-shadow:0 1px 10px #faf9f4;
 }
 
 .container{
@@ -83,11 +84,11 @@ h2{
   align-items: center;
   margin:20px;
   padding:15px;
-  background-color:lightblue;
-  border: 1px black dashed;
+  /* background-color:lightblue; */
+  /* border: 1px black dashed; */
   border-radius:5px;
-  gap: 10px;
-  /* flex-direction: unset; */
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
 .org{
@@ -98,6 +99,7 @@ h2{
   align-items: flex;
   justify-items: center;
   align-content: center;
+  gap:20px;
 }
 
 
@@ -121,6 +123,36 @@ img{
 }
 
 .polaroid{
-  border:aliceblue;
-  border-bottom:10px #faf9f4;
+  width:250px;
+  height:max;
+  border: 10px solid #faf9f4;
+  border-bottom:30px solid #faf9f4;
+  margin:2px black;
+  box-shadow:0 0px 6px #898e9d;
+  transform: rotate(-3deg);
+}
+
+.polaroid:hover{
+  width:250px;
+  height:max;
+  border: 10px solid #faf9f4;
+  border-bottom:30px solid #faf9f4;
+  margin:2px black;
+  box-shadow:0 0px 6px #898e9d;
+  transform: rotate(3deg);
+  filter:grayscale(1);
+}
+
+section{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  flex-direction:column;
+
+}
+
+p{
+  font-family:'Bogart','Segoe UI';
+  display:flex;
+  font-weight:300;
 }
